@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+  <name>talker</name>
+  <version>0.0.0</version>
+  <description>simple publisher</description>
+
+  <maintainer email="kamila.lis@outlook.com">kl</maintainer>
+
+  <license>TODO</license>
+
+  <!-- Use run_depend for packages you need at runtime: -->
+  <run_depend>xacro</run_depend>
+  <run_depend>oro_joint_state_publisher</run_depend>
+  <run_depend>rtt_sensor_msgs</run_depend>
+  <run_depend>rtt_geometry_msgs</run_depend>
+  <run_depend>rtt_diagnostics_msgs</run_depend>
+  <run_depend>rtt_control_msgs</run_depend>
+  <run_depend>rtt</run_depend>
+  <run_depend>rtt_ros</run_depend>
+  <run_depend>rtt_rosnode</run_depend>
+  <run_depend>rtt_rostopic</run_depend>
+  <run_depend>rtt_rosparam</run_depend>
+
+  <!-- Use buildtool_depend for build tool packages: -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
